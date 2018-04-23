@@ -1,0 +1,662 @@
+/*!
+ * Start Bootstrap - Shop Item (https://startbootstrap.com/template-overviews/shop-item)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-item/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+  background: url(../img/nn.jpg);
+}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0px;
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+/*header-------------------media0------------------------------------------------------------------------*/
+
+#logo{
+  float: left;
+  display: inline-block;
+  color: #343A40;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  top: 10px;
+  padding-bottom: 10px;
+}
+#navControl{
+  float: right;
+  padding-right: 10%;
+  display: inline-block;
+}
+}
+.head {
+  height: 100px;
+}
+header,.head ,.head2, #globalNav{
+  /*background: #343A40;*/
+}
+.head2 {
+  margin-top: 20px;
+}
+.head2 li{
+  list-style: none;
+  padding: 10px;
+}
+.head2 li a{
+  text-decoration: none;
+  color: #939699;
+  font-size: 16px;
+  margin-left: -50px;
+
+}
+.head2 li a:hover,.head2 .active a {
+  text-decoration: none;
+  color: #ffb83f;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+#navControl a {
+  display: inline-block;
+  overflow: hidden;
+  width: 56px;
+  height: 38px;
+  background: #343A40 url(../img/dd.jpg) no-repeat 0 0;
+  text-indent: 100%;
+  white-space: nowrap;
+  border-radius: 2px;
+  border: 0.5px solid #ddd;
+  position: absolute;
+  top: 15px;
+}
+#navControl a.active,#navControl a.focus {
+ border: 0.5px solid blue;
+ border-radius: 2px;
+}
+#globalNav, .head2 {
+  z-index: 100;
+  position: relative;
+}
+/*box1-3-------------------------media0--------------------------------------------------------------------*/
+.box1{
+    width: 100%;
+    z-index: 0;*/
+  }
+  .box1-1,.box1-5{
+    width: 11%;
+    padding-bottom: 43.2%;
+    background: #fff0d8;
+    background: -webkit-linear-gradient(top, #fff0d8, #ffd999);
+    background: -moz-linear-gradient(top, #fff0d8, #ffd999);
+    background: -o-linear-gradient(top, #fff0d8, #ffd999);
+    background: linear-gradient(to bottom, #fff0d8, #ffd999);
+  }
+  .box1-2, .box1-4{
+    width: 4%;
+    padding-bottom: 43.2%;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(232,232,232,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%);
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e8e8e8', GradientType=1 );
+  }
+  .box1-3{
+    width: 70%;
+  }
+ 
+  .box1-1,.box1-2,.box1-3,.box1-4,.box1-5{
+    float: left;
+    z-index: 100;
+  }
+  @media screen and (min-width: 992px){
+  .code{
+    padding-bottom: 50px;
+  }
+  }
+/*box2-----------------------media0---------------------------------------------------------------------------*/
+  .box2{
+    width: 100%;
+    padding: 8% 0;
+  }
+  .box2-1{
+    margin-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    padding-bottom: 51%;
+    background: url(../img/index_1.jpg);
+  }
+  .box2-2{
+    margin-right: 15%;
+    margin-left: 15%;
+    width: 70%;
+    padding-bottom: 0px;
+  }
+  .box2-2 iframe{
+  width: 100%;
+  height: 300px;
+}
+/*box2------------------media992----------------*/
+@media screen and (min-width: 992px){
+  
+  .box2{
+    width: 100%;
+    padding-bottom: 35.4%;
+    padding-top: 0%;
+  }
+  .box2-1{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 7%;
+    margin-right: 5%;
+    width: 38%;
+    padding-bottom: 28%;
+    background: url(../img/index_1.jpg);
+    float: left !important;
+  }
+  .box2-2{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 7%;
+    margin-left: 0%;
+    width: 43%;
+    padding-bottom: 0px;
+    float: left !important;
+  }
+ .box2-2 iframe{
+  width: 100%;
+  height: 260px;
+}
+}
+@media screen and (min-width: 1200px){
+  .box2-2 iframe {
+    height: 340px;
+  }
+}
+
+/*contact box6---------media0--------------------------------------------------------------------------------*/
+
+.box6-1{
+    width: 94%;
+    margin: 7.5% 3% 3% 3%;
+    padding: 10px;
+    background: #fff0d8;
+    color: #939699;
+   
+  }
+input#submit{
+  font-size: 20px;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 300px;
+  margin: 20px auto;
+
+}
+
+
+/*about box7------------------------------media0,500,992,1200-------------------------------------------------*/
+
+.box7-1 dt{
+  width: 30%;
+  margin-right: 10%;
+  float: left;
+}
+.box7-1 dd{
+  width: 60%;
+  float: left;
+}
+ .box7-1{
+ margin: 10% 10%;
+ width: 80%;
+ font-size: 20px;
+}
+@media screen and (max-width: 500px){
+
+.box7-1 dt{
+  width: 100%;
+  float: none;
+}
+.box7-1 dd{
+  width: 100%;
+  float: none;
+}
+ .box7-1{
+ margin: 10% ;
+ width: 80%;
+ font-size: 14px;
+}
+}
+
+
+   .box7-2{
+    background:  url(../img/about_1.jpg);
+    margin:8% 10%;
+    width: 80%;
+    float: none;
+    padding-bottom: 52.5%;
+  }
+  .box7-3{
+    margin:8% 10%;
+    width: 80%;
+    float: none;
+  } 
+  .box7-3 iframe{
+    width: 100%;
+    height: 300px;
+  }
+  @media screen and (min-width: 992px){
+   .box7-3 iframe{
+    width: 100%;
+    height: 200px;
+  } 
+  }
+  @media screen and (min-width: 1200px){
+   .box7-3 iframe{
+    width: 100%;
+    height: 230px;
+  } 
+  }
+
+/*pribacy box8-1------------------------------media 0,600-------------------------------------------------------------------------------------------------------*/
+
+.box8-1{
+    width: 96%;
+    margin: 7% 2% 8% 2%;
+   /* padding-bottom: 67%;*/
+   /* background: #ddd;*/
+  }
+@media screen and(max-width: 600px){
+.box8-1{
+  margin-right: 0%;
+  width: 96%;
+}
+}
+/*legalnotice box9-1------------------------media0,992,------------------------------------------------*/
+.box9-1{
+    width: 96%;
+    margin: 7% 2% 12% 2%;
+    /*padding-bottom: 63%;
+    background: #000;*/
+  }
+
+@media (min-width: 992px) {
+ 
+  .head {
+    height: 0px;
+  }
+  #logo{
+    position: absolute;
+    top: 23px;
+  }
+  .head2{
+    width: 60%;
+    position: absolute;
+    top: 10px;
+    right: 10%;
+    height: 0;
+  }
+  #globalNav {
+    display: block !important;
+    float:right;
+    width: 100%;
+    height: 0;
+  }
+
+  #globalNav li{
+    display: inline-block;
+    float: left;
+    margin-right: 3%;
+    text-align: center;
+    width: 22%;
+    height: 50px;
+  }
+ 
+  #logo{
+    float: left;
+  }
+  #navControl a{
+    display: none;
+  }
+  #navControl {
+    float: none;
+  }
+  }
+/*box3-----------------------------------media0, 400,768,992-----------------------------------------------*/
+.box3{
+    width: 100%;
+    padding-bottom: 4%;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(232,232,232,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%);
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e8e8e8', GradientType=1 );
+  
+  }
+
+.h1img{
+  display: block;
+  width: 50px;
+  padding-top: 8%;
+  margin: 0 auto;
+}
+.donatu{
+  text-align: center;
+}
+.menu{
+  display: block;
+  padding-top: 6%;
+}
+#global2{
+ list-style: none;
+ width: 100%;
+ margin: 0 auto;
+}
+#global2 li a{
+  width: 100%;
+  text-align: center;
+  margin-left: -10%;
+  display: inline-block;
+  text-decoration: none;
+  color: #939699;
+}
+#global2 li a:hover, #global2 .active a{
+  color: #ffb83f;
+}
+
+@media screen and (min-width: 400px){
+ 
+ #global2 li a{
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+  text-align: center;
+} 
+}
+@media screen and (min-width: 768px){
+  #global2 li a{
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-left: 0%
+  }
+}
+@media screen and (min-width: 992px){
+
+.menu{
+  display: block;
+  padding-top: 6%;
+}
+#global2{
+ list-style: none;
+ width: 70%;
+ margin: 0 auto;
+}
+#global2 li a{
+  float: left;
+  width: 20%;
+  text-align: center;
+  margin-left: 3%;
+}
+}
+/*box4-----------------------------------0.500----------------------------------------------------------*/
+.box4 p{
+  padding-top: 3%;
+  text-align: center;
+  padding-bottom: 3%;
+  color: #fff;
+  font-size: 10px;
+  width: 100%;
+  background: #fff0d8;
+  background: -webkit-linear-gradient(top, #fff0d8, #ffd999);
+  background: -moz-linear-gradient(top, #fff0d8, #ffd999);
+  background: -o-linear-gradient(top, #fff0d8, #ffd999);
+  background: linear-gradient(to bottom, #fff0d8, #ffd999);
+}
+
+@media screen and (min-width: 500px){
+.box4 p{
+  font-size: 16px;
+}
+}  
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+  /*box1---------------------------------992-------------------------------------------------------------------*/
+  .box1{
+    width: 100%;
+  }
+  .box1-1,.box1-5{
+    width: 11%;
+    padding-bottom: 43.2%;
+  }
+  .box1-2, .box1-4{
+    width: 4%;
+    padding-bottom: 43.2%;
+  }
+  
+  .box1-1,.box1-2,.box1-3,.box1-4,.box1-5{
+    float: left;
+    z-index: 100;
+  }
+  
+  /*box3------------------------------992---------------------------------------------------------------*/
+
+  .box3{
+    width: 100%;
+    padding-bottom: 2%;
+  }
+ /*box4---------------------------------992---------------------------------------------------------------*/
+ .box4 p{
+  padding-top: 3%;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+}
+  /*contact box5--------------------------0,768,1200----------------------------------------------------------*/
+  .box5{
+    width: 100%;
+    position: relative;
+    top: 50px;
+    padding-bottom: 30px;
+  }
+  .box5 img{
+   
+  }
+  .box5 h1{
+    position: absolute;
+    top:20%;
+    left:50%;
+    margin-left: -10%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  @media screen and (min-width: 768px){
+  .box5 h1{
+    font-size: 30px;
+    top: 25%;
+  }
+}
+  @media screen and (min-width: 1000px){
+  .box5 h1{
+    top: 27%;
+  }
+}
+  @media screen and (min-width: 1200px){
+  .box5 h1{
+    font-size: 40px;
+    margin-left: -10%;
+    top: 30%;
+  }
+  }
+  /*box6  992----------------------------------------------------------------------------------------------*/
+
+  @media screen and (min-width: 992px){
+  .box6-1{
+    width: 58%;
+    margin: 7.5% 21% 3% 21%;
+    padding: 10px;
+  }
+  .box6-1 dl{
+    padding: 10px;
+  }
+  input#submit{
+    margin-bottom: 10px;
+  }
+  
+  /*about box7----------992------------------------------------------------------------------------------*/
+  .box7-1{
+    margin: 10% 29%;
+    width: 42%;
+   
+  }
+  .box7-2{
+    float: left;
+    background: url(../img/about_1.jpg);
+    margin-bottom: 3%;
+    width: 32%;
+    margin-top: 0%;
+   padding-bottom: 21%;
+  }
+  .box7-3{
+    float: left;
+    margin-bottom: 3%;
+    width: 32%;
+    margin-top: 0%;
+   /*padding-bottom: 21%;*/
+  }
+  .box7-2{
+    margin-left: 15%;
+    margin-right: 6%;
+  }
+  .box7-3{
+    margin-right: 15%;
+    margin-left: 0%;
+  }
+  /*privacy box8-------------------992-------------------------------------------------------------------*/
+  .box8-1{
+    width: 70%;
+    margin: 7% 17% 8% 13%;
+   
+  }
+  /*legalnotice.html box9-----------992-----------------------------------------------------------------------*/
+  .box9-1{
+    width: 70%;
+    margin: 7% 17% 12% 13%;
+   
+  }
+
+}
+.animated { 
+    animation-duration: 1s; 
+    animation-fill-mode: both; 
+    animation-timing-function: linear; 
+} 
+
+@keyframes fadeInLeft { 
+    0% { 
+        opacity: 0; 
+        transform: translateX(-20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateX(0); 
+    } 
+} 
+.fadeInLeft { 
+    animation-name: fadeInLeft; 
+}
+.animated { 
+    animation-duration: 1s; 
+    animation-fill-mode: both; 
+    animation-timing-function: linear; 
+} 
+
+@keyframes fadeInRight { 
+    0% { 
+        opacity: 0; 
+        transform: translateX(20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateX(0); 
+    } 
+} 
+.fadeInRight { 
+    animation-name: fadeInRight; 
+}
+
+.animated { 
+    animation-duration: 1s; 
+    animation-fill-mode: both; 
+    animation-timing-function: linear; 
+} 
+
+@keyframes slideInDown { 
+    0% { 
+        transform: translate3d(0, -100%, 0); 
+        visibility: visible; 
+    } 
+    100% { 
+        transform: translate3d(0, 0, 0); 
+    } 
+} 
+.slideInDown { 
+    animation-name: slideInDown; 
+}
+
+.animated { 
+    animation-duration: 1s; 
+    animation-fill-mode: both; 
+    animation-timing-function: ease-in-out; 
+} 
+
+@keyframes fadeInLeft { 
+    0% { 
+        opacity: 0; 
+        transform: translateX(-20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateX(0); 
+    } 
+} 
+.fadeInLeft { 
+    animation-name: fadeInLeft; 
+}
+
